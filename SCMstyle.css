@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+    line-height: 1.6;
+}
+h1, h3, h4, h2{
+    margin: 0;
+}
+p{
+    margin:0;
+    line-height: 1.5;
+}
+header{
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+nav{
+    background: darkblue;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px 0;
+
+}
+.features{
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+
+}
+.feature{
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+.feature h3{
+    color: cyan;
+    margin-bottom: 10px;
+}
+.feature p{
+    color: black;
+    font-size: 0.9rem;
+}
+.machineInfo{
+    
+}
+.machineInfo h4{
+    color: cyan;
+    margin-bottom: 10px;
+}
+.machineInfo p{
+    color: black;
+    font-size: 0.9rem;
+}
+.about{
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+.about h2{
+    color: cyan;
+    margin-bottom: 10px;
+}
+.about p{
+    color: black;
+    font-size: 0.9rem;
+}
+footer{
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+footer p{
+    margin: 0;
+}
